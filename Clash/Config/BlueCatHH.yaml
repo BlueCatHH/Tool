@@ -70,10 +70,10 @@ proxy-providers:
   Subscribe:
     <<: *a1
     #url: https://t.me/ddgksf2021.yaml
-    #url: 
-   # url: 
-   # url: 
-    url: https://api.nexconvert.com/sub?target=clash&url=https://api.dler.io/sub?target=clash&url=ss%3A%2F%2FYWVzLTEyOC1nY206N2VhYzVhMGItYWU4MS00NWE3LWI2ZmUtOTExOTFkM2UzZDYw%40jscm.as9929.uk%3A29634%23%25E9%25A6%2599%25E6%25B8%25AF-CERA-%25E8%2593%259D%25E7%258C%25AB%25E4%25B8%2593%25E7%2594%25A8-%25E6%2597%25A0%25E9%2599%2590&emoji=true&list=false&udp=false&tfo=false&scv=false&fdn=false&sort=false|https://sub.xttlove.uk/api/v1/client/subscribe?token=00b37272a161f837aed9c077d2b6f991|https://subscribe.infinitetitan.com/link/3L61nNuZCqAgUzzC?clash=1&emoji=true&list=true&new_name=true&udp=false
+    url: https://api.dler.io/sub?target=clash&url=ss%3A%2F%2FYWVzLTEyOC1nY206N2VhYzVhMGItYWU4MS00NWE3LWI2ZmUtOTExOTFkM2UzZDYw%40jscm.as9929.uk%3A29634%23%25E9%25A6%2599%25E6%25B8%25AF-CERA-%25E8%2593%259D%25E7%258C%25AB%25E4%25B8%2593%25E7%2594%25A8-%25E6%2597%25A0%25E9%2599%2590&emoji=true&list=false&udp=false&tfo=false&scv=false&fdn=false&sort=false
+    url: https://sub.xttlove.uk/api/v1/client/subscribe?token=00b37272a161f837aed9c077d2b6f991
+    url: https://subscribe.infinitetitan.com/link/3L61nNuZCqAgUzzC?clash=1
+    #url: https://api.nexconvert.com/sub?target=clash&url=https://api.dler.io/sub?target=clash&url=ss%3A%2F%2FYWVzLTEyOC1nY206N2VhYzVhMGItYWU4MS00NWE3LWI2ZmUtOTExOTFkM2UzZDYw%40jscm.as9929.uk%3A29634%23%25E9%25A6%2599%25E6%25B8%25AF-CERA-%25E8%2593%259D%25E7%258C%25AB%25E4%25B8%2593%25E7%2594%25A8-%25E6%2597%25A0%25E9%2599%2590&emoji=true&list=false&udp=false&tfo=false&scv=false&fdn=false&sort=false|https://sub.xttlove.uk/api/v1/client/subscribe?token=00b37272a161f837aed9c077d2b6f991|https://subscribe.infinitetitan.com/link/3L61nNuZCqAgUzzC?clash=1&emoji=true&list=true&new_name=true&udp=false
     # URL后面填写格式1[单一订阅]: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露]
     # URL后面填写格式2[多个订阅]：https://api.nexconvert.com/sub?target=clash&url=请手动填入你的订阅(多机场订阅用|分割即可)&emoji=true&list=true&new_name=true&udp=false
     path: ./proxy_providers/tmp.yaml
