@@ -1,4 +1,6 @@
 payload:
 # > 守候影视
  - DOMAIN-SUFFIX,emby.cn2gias.uk
+ # > 桃子影视
+ - DOMAIN-SUFFIX,embymv.me
 
