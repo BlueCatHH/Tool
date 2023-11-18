@@ -1,0 +1,5 @@
+payload:
+# > 不给看影视
+ - DOMAIN-SUFFIX,zwei.bgka.me
+# > GUGU影视
+ - DOMAIN-SUFFIX,pro.gugumedia.link
