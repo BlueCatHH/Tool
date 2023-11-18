@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,emby.cn2gias.uk
 # > 桃子影视:8096
 DOMAIN-SUFFIX,embymv.me
+DOMAIN-SUFFIX,embymv.tk
 # > 不给看影视:443
 DOMAIN-SUFFIX,c.emby.pro
 # > GUGU影视:80
@@ -28,9 +29,6 @@ DOMAIN-SUFFIX,kr.freetz.top
 DOMAIN-SUFFIX,emby.9191001.xyz:2052
 # > 私人影视:443
 DOMAIN-SUFFIX,https://emby.agon.cf
-# > 放映厅影视:80
-DOMAIN-SUFFIX,cf.xmsl.org
-DOMAIN-SUFFIX,free.xmsl.org
 # > 卷毛鼠影视:443
 DOMAIN-SUFFIX,cf:jmsooo.com
 # > Paul影视
