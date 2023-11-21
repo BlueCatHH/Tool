@@ -33,17 +33,17 @@ DOMAIN-SUFFIX,https://emby.agon.cf
 DOMAIN-SUFFIX,cf:jmsooo.com
 # > Paul影视
 DOMAIN-SUFFIX,emby.imetyou.top
- # :8096（随机线路）
+# :8096（随机线路）
 DOMAIN-SUFFIX,cf.imetyou.top
- #（cf线路,可以加https访问）
+#（cf线路,可以加https访问）
 DOMAIN-SUFFIX,fk.imetyou.top
- # :8096（落地机线路）
+# :8096（落地机线路）
 DOMAIN-SUFFIX,kr.imetyou.top
- # :22333（首尔中转）
+# :22333（首尔中转）
 DOMAIN-SUFFIX,sg.imetyou.top
- # :22333(新加坡中转）
+# :22333(新加坡中转）
 DOMAIN-SUFFIX,chun.imetyou.top
- # :22333(春川中转）
+# :22333(春川中转）
 # > 垃圾影视:80
 DOMAIN-SUFFIX,cf.xmsl.org
 DOMAIN-SUFFIX,free.xmsl.org
