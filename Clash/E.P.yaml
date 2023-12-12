@@ -11,6 +11,7 @@ payload:
  # > ：2096
  - DOMAIN-SUFFIX,s2.bgka.me
 # > GUGU影视:80
+
  - DOMAIN-SUFFIX,main.gugumedia.link
  - DOMAIN-SUFFIX,front.gugumedia.link
 # > TreeDiagram:443
