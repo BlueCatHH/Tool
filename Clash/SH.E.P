@@ -1,0 +1,4 @@
+payload:
+# > 守候影视:443
+ - DOMAIN-SUFFIX,emby.cn2gias.uk
+ - DOMAIN-SUFFIX,post.cn2gias.uk
