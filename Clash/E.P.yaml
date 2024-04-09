@@ -11,6 +11,8 @@ payload:
  - DOMAIN-SUFFIX,pro.gugumedia.link
  - DOMAIN-SUFFIX,main.gugumedia.link
  - DOMAIN-SUFFIX,front.gugumedia.link
+ # > :443
+ - DOMAIN-SUFFIX,main.gugu.media
 # > TreeDiagram:443
  - DOMAIN-SUFFIX,789.123456.al
 # > 星光影视:80
