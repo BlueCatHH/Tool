@@ -1,0 +1,12 @@
+# > 守候影视:8096
+DOMAIN-SUFFIX,pe.cn2gias.uk
+DOMAIN-SUFFIX,prekr.cn2gias.uk
+DOMAIN-SUFFIX,prehk.cn2gias.uk 
+DOMAIN-SUFFIX,film.reddust.link
+DOMAIN-SUFFIX,public.emby.ws
+IP-CIDR,83.147.61.152/32,no-resolve
+IP-CIDR,104.160.178.150/32,no-resolve
+# > 桃子影视:8096
+DOMAIN-SUFFIX,embymv.top
+DOMAIN-SUFFIX,embymv.me
+DOMAIN-SUFFIX,embymv.tk

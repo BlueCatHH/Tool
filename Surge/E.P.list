@@ -1,13 +1,3 @@
-# > 守候影视:8096
-DOMAIN-SUFFIX,pe.cn2gias.uk
-DOMAIN-SUFFIX,film.reddust.link
-DOMAIN-SUFFIX,public.emby.ws
-IP-CIDR,83.147.61.152/32,no-resolve
-IP-CIDR,104.160.178.150/32,no-resolve
-# > 桃子影视:8096
-DOMAIN-SUFFIX,embymv.top
-DOMAIN-SUFFIX,embymv.me
-DOMAIN-SUFFIX,embymv.tk
 # > 不给看影视:443
 DOMAIN-SUFFIX,c.emby.pro
 DOMAIN-SUFFIX,zwei.bgka.me
@@ -52,9 +42,11 @@ DOMAIN-SUFFIX,fk.imetyou.top
 DOMAIN-SUFFIX,kr.imetyou.top
 # :22333（首尔中转）
 DOMAIN-SUFFIX,sg.imetyou.top
-# :22333(新加坡中转）
+# :22333（新加坡中转）
 DOMAIN-SUFFIX,chun.imetyou.top
-# :22333(春川中转）
+# :22333（春川中转）
 # > 垃圾影视:80
 DOMAIN-SUFFIX,cf.xmsl.org
 DOMAIN-SUFFIX,free.xmsl.org
+# > 起点站:443
+DOMAIN-SUFFIX,tdck.fun

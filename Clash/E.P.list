@@ -42,9 +42,11 @@ DOMAIN-SUFFIX,fk.imetyou.top
 DOMAIN-SUFFIX,kr.imetyou.top
  # :22333（首尔中转）
 DOMAIN-SUFFIX,sg.imetyou.top
- # :22333(新加坡中转）
+ # :22333（新加坡中转）
 DOMAIN-SUFFIX,chun.imetyou.top
- # :22333(春川中转）
+ # :22333（春川中转）
 # > 垃圾影视:80
 DOMAIN-SUFFIX,cf.xmsl.org
 DOMAIN-SUFFIX,free.xmsl.org
+# > 起点站:443
+DOMAIN-SUFFIX,tdck.fun
