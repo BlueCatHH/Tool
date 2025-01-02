@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,9wfree.emby.eu.org
 DOMAIN-SUFFIX,cc.ccemby.tk
 # > Temby:8880
 DOMAIN-SUFFIX,temby.285286.xyz
+DOMAIN-SUFFIX,temby856.285286.xyz
 # > NMemby:443
 DOMAIN-SUFFIX,film.ohhhh.org
 # > 纸片人影视:443
@@ -62,3 +63,7 @@ DOMAIN-SUFFIX,cf.xmsl.org
 DOMAIN-SUFFIX,free.xmsl.org
 # > 起点站:443
 DOMAIN-SUFFIX,tdck.fun
+# > 月饼:443
+DOMAIN-SUFFIX,emby.my
+DOMAIN-SUFFIX,cdn.emby.my
+DOMAIN-SUFFIX,ccdn.emby.my
