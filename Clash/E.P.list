@@ -6,45 +6,59 @@ DOMAIN-SUFFIX,film.reddust.link
 DOMAIN-SUFFIX,public.emby.ws
 IP-CIDR,83.147.61.152/32,no-resolve
 IP-CIDR,104.160.178.150/32,no-resolve
+
 # > 桃子影视:8096
 DOMAIN-SUFFIX,embymv.top
 DOMAIN-SUFFIX,embymv.me
 DOMAIN-SUFFIX,embymv.tk
+
 # > 不给看影视:443
 DOMAIN-SUFFIX,c.emby.pro
 DOMAIN-SUFFIX,zwei.bgka.me
  # > ：2096
 DOMAIN-SUFFIX,s2.bgka.me
+
 # > GUGU影视:80
 DOMAIN-SUFFIX,pro.gugumedia.link
 DOMAIN-SUFFIX,main.gugumedia.link
 DOMAIN-SUFFIX,front.gugumedia.link
  # > :443
 DOMAIN-SUFFIX,main.gugu.media
+
 # > TreeDiagram:443
 DOMAIN-SUFFIX,789.123456.al
+
 # > 星光影视:80
 DOMAIN-SUFFIX,free.emby.eu.org
 DOMAIN-SUFFIX,9wfree.emby.eu.org
+
 # > cc影视:80
 DOMAIN-SUFFIX,cc.ccemby.tk
+
 # > Temby:8880
 DOMAIN-SUFFIX,temby.285286.xyz
 DOMAIN-SUFFIX,temby856.285286.xyz
+
 # > NMemby:443
 DOMAIN-SUFFIX,film.ohhhh.org
+
 # > 纸片人影视:443
 DOMAIN-SUFFIX,embyplus.org
+
 # > 魔法影视:443
 DOMAIN-SUFFIX,emby.freetz.top
 DOMAIN-SUFFIX,cf.freetz.top
 DOMAIN-SUFFIX,kr.freetz.top
+
 # > 放映厅影视:2052
-DOMAIN-SUFFIX,emby.9191001.xyz:2052
+DOMAIN-SUFFIX,emby.9191001.xyz
+
 # > 私人影视:443
-DOMAIN-SUFFIX,https://emby.agon.cf
+DOMAIN-SUFFIX,emby.agon.cf
+
 # > 卷毛鼠影视:443
 DOMAIN-SUFFIX,cf:jmsooo.com
+
 # > Paul影视
 DOMAIN-SUFFIX,emby.imetyou.top
  # :8096（随机线路）
@@ -58,12 +72,24 @@ DOMAIN-SUFFIX,sg.imetyou.top
  # :22333（新加坡中转）
 DOMAIN-SUFFIX,chun.imetyou.top
  # :22333（春川中转）
+
 # > 垃圾影视:80
 DOMAIN-SUFFIX,cf.xmsl.org
 DOMAIN-SUFFIX,free.xmsl.org
+
 # > 起点站:443
 DOMAIN-SUFFIX,tdck.fun
+
 # > 月饼:443
 DOMAIN-SUFFIX,emby.my
 DOMAIN-SUFFIX,cdn.emby.my
 DOMAIN-SUFFIX,ccdn.emby.my
+
+# > pilipili:443
+DOMAIN-SUFFIX,pilipili.club
+
+# > Nebula-Media（星云）:443
+DOMAIN-SUFFIX,emby.nebula-media.org
+
+# > Nanflix Plus（天南）:2231
+DOMAIN-SUFFIX,us.nanflix.net
