@@ -95,9 +95,9 @@ DOMAIN-SUFFIX,emby.nebula-media.org
 DOMAIN-SUFFIX,us.nanflix.net
 
 # > 牢大餐厅：8443
-emby-mica-us-v1.mius.uk
-emby-micax-ca-v2.mius.uk
+DOMAIN-SUFFIX,emby-mica-us-v1.mius.uk
+DOMAIN-SUFFIX,emby-micax-ca-v2.mius.uk
 # > :443
-emby-mica-hk-v4.mius.uk
-emby-mica-yxvm-hk-v4.mius.uk
-emby-mica-hk3-v4.mius.uk
+DOMAIN-SUFFIX,emby-mica-hk-v4.mius.uk
+DOMAIN-SUFFIX,emby-mica-yxvm-hk-v4.mius.uk
+DOMAIN-SUFFIX,emby-mica-hk3-v4.mius.uk
