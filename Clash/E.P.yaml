@@ -111,3 +111,12 @@ payload:
  - DOMAIN-SUFFIX,emby-mica-hk-v4.mius.uk
  - DOMAIN-SUFFIX,emby-mica-yxvm-hk-v4.mius.uk
  - DOMAIN-SUFFIX,emby-mica-hk3-v4.mius.uk
+
+# > SaturDay.Lite:8098
+ - DOMAIN-SUFFIX,lite.saturday.video
+
+# > 流星：20423
+ - DOMAIN-SUFFIX,emby1.liustar.click
+
+# > 墨云阁：10086
+ - DOMAIN-SUFFIX,2pfdml.mobaiemby.site
