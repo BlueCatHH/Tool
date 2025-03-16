@@ -11,6 +11,7 @@ IP-CIDR,104.160.178.150/32,no-resolve
 DOMAIN-SUFFIX,embymv.top
 DOMAIN-SUFFIX,embymv.me
 DOMAIN-SUFFIX,embymv.tk
+DOMAIN-SUFFIX,embymv.link
 
 # > 不给看影视:443
 DOMAIN-SUFFIX,c.emby.pro
