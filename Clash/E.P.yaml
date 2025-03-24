@@ -79,6 +79,9 @@ payload:
  - DOMAIN-SUFFIX,cf.xmsl.org
  - DOMAIN-SUFFIX,free.xmsl.org
 
+# > Misty:443
+ - DOMAIN-SUFFIX,misty.cx
+
 # > 起点站:443
  - DOMAIN-SUFFIX,favoritewife.com
  - DOMAIN-SUFFIX,qdz-de-pro.vfing.de
