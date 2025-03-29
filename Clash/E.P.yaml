@@ -122,3 +122,9 @@ payload:
 # > 墨云阁：10086
  - DOMAIN-SUFFIX,2pfdml.mobaiemby.site
  - DOMAIN-SUFFIX,myg.mobaiemby.site
+
+# > 叶子：80/443
+ - DOMAIN-SUFFIX,super.yezi.my
+ - DOMAIN-SUFFIX,yyds.yezi.my
+ - DOMAIN-SUFFIX,yezi.697758.best
+ - DOMAIN-SUFFIX,yz.yezi.my
