@@ -97,7 +97,8 @@ DOMAIN-SUFFIX,cdn.emby.my
 DOMAIN-SUFFIX,ccdn.emby.my
 
 # > pilipili:443
-DOMAIN-SUFFIX,pilipili.club
+DOMAIN-SUFFIX,emby-direct.pilipiliultra.com
+DOMAIN-SUFFIX,emby.pilipiliultra.com
 
 # > Nebula-Media（星云）:443
 DOMAIN-SUFFIX,emby.nebula-media.org
