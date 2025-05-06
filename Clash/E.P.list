@@ -1,9 +1,5 @@
 # > SH影视
 DOMAIN-SUFFIX,cn2gias.uk
-DOMAIN-SUFFIX,film.reddust.link
-DOMAIN-SUFFIX,public.emby.ws
-IP-CIDR,83.147.61.152/32,no-resolve
-IP-CIDR,104.160.178.150/32,no-resolve
 
 # > 桃子影视:8096
 DOMAIN-SUFFIX,embymv.
@@ -13,8 +9,8 @@ DOMAIN-SUFFIX,c.emby.pro
 DOMAIN-SUFFIX,bgka.me
 
 # > GUGU影视:80
+DOMAIN-SUFFIX,gugumemby.site
 DOMAIN-SUFFIX,gugumedia.link
-DOMAIN-SUFFIX,main.gugu.media
 
 # > TreeDiagram:443
 DOMAIN-SUFFIX,789.123456.al
@@ -69,17 +65,17 @@ DOMAIN-SUFFIX,emby.my
 DOMAIN-SUFFIX,pilipiliultra.com
 
 # > Nebula-Media（星云）:443
-DOMAIN-SUFFIX,emby.nebula-media.org
+DOMAIN-SUFFIX,nebula-media.org
+DOMAIN-SUFFIX,nebula-emby.com
 
 # > Nanflix Plus（天南）:2231
-DOMAIN-SUFFIX,us.nanflix.net
+DOMAIN-SUFFIX,nanflix.net
 
 # > 牢大餐厅：8443
 DOMAIN-SUFFIX,biliblili.uk
 DOMAIN-SUFFIX,mius.uk
 
 # > SaturDay.Lite:8098
-DOMAIN-SUFFIX,lite.saturday.video
 DOMAIN-SUFFIX,lite.saturdayvideo.top
 
 # > 流星：20423
