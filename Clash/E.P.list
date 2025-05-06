@@ -1,44 +1,32 @@
 # > SH影视
 DOMAIN-SUFFIX,cn2gias.uk
-DOMAIN-SUFFIX,prekr.cn2gias.uk
-DOMAIN-SUFFIX,prehk.cn2gias.uk 
 DOMAIN-SUFFIX,film.reddust.link
 DOMAIN-SUFFIX,public.emby.ws
 IP-CIDR,83.147.61.152/32,no-resolve
 IP-CIDR,104.160.178.150/32,no-resolve
 
 # > 桃子影视:8096
-DOMAIN-SUFFIX,embymv.top
-DOMAIN-SUFFIX,embymv.me
-DOMAIN-SUFFIX,embymv.tk
-DOMAIN-SUFFIX,embymv.link
+DOMAIN-SUFFIX,embymv.
 
 # > 不给看影视:443
 DOMAIN-SUFFIX,c.emby.pro
-DOMAIN-SUFFIX,zwei.bgka.me
- # > ：2096
-DOMAIN-SUFFIX,s2.bgka.me
+DOMAIN-SUFFIX,bgka.me
 
 # > GUGU影视:80
-DOMAIN-SUFFIX,pro.gugumedia.link
-DOMAIN-SUFFIX,main.gugumedia.link
-DOMAIN-SUFFIX,front.gugumedia.link
- # > :443
+DOMAIN-SUFFIX,gugumedia.link
 DOMAIN-SUFFIX,main.gugu.media
 
 # > TreeDiagram:443
 DOMAIN-SUFFIX,789.123456.al
 
 # > 星光影视:80
-DOMAIN-SUFFIX,free.emby.eu.org
-DOMAIN-SUFFIX,9wfree.emby.eu.org
+DOMAIN-SUFFIX,emby.eu.org
 
 # > cc影视:80
 DOMAIN-SUFFIX,cc.ccemby.tk
 
 # > Temby:8880
-DOMAIN-SUFFIX,temby.285286.xyz
-DOMAIN-SUFFIX,temby856.285286.xyz
+DOMAIN-SUFFIX,285286.xyz
 
 # > NMemby:443
 DOMAIN-SUFFIX,film.ohhhh.org
@@ -47,9 +35,7 @@ DOMAIN-SUFFIX,film.ohhhh.org
 DOMAIN-SUFFIX,embyplus.org
 
 # > 魔法影视:443
-DOMAIN-SUFFIX,emby.freetz.top
-DOMAIN-SUFFIX,cf.freetz.top
-DOMAIN-SUFFIX,kr.freetz.top
+DOMAIN-SUFFIX,freetz.top
 
 # > 放映厅影视:2052
 DOMAIN-SUFFIX,emby.9191001.xyz
@@ -61,42 +47,26 @@ DOMAIN-SUFFIX,emby.agon.cf
 DOMAIN-SUFFIX,cf:jmsooo.com
 
 # > Paul影视
-DOMAIN-SUFFIX,emby.imetyou.top
- # :8096（随机线路）
-DOMAIN-SUFFIX,cf.imetyou.top
- #（cf线路,可以加https访问）
-DOMAIN-SUFFIX,fk.imetyou.top
- # :8096（落地机线路）
-DOMAIN-SUFFIX,kr.imetyou.top
- # :22333（首尔中转）
-DOMAIN-SUFFIX,sg.imetyou.top
- # :22333（新加坡中转）
-DOMAIN-SUFFIX,chun.imetyou.top
- # :22333（春川中转）
+DOMAIN-SUFFIX,imetyou.top
 
 # > 垃圾影视:80
-DOMAIN-SUFFIX,cf.xmsl.org
-DOMAIN-SUFFIX,free.xmsl.org
+DOMAIN-SUFFIX,xmsl.org
 
 # > Misty:443
 DOMAIN-SUFFIX,misty.cx
 
 # > 起点站:443
 DOMAIN-SUFFIX,favoritewife.com
-DOMAIN-SUFFIX,qdz-de-pro.vfing.de
-DOMAIN-SUFFIX,qdz-hk-0.vfing.de
-DOMAIN-SUFFIX,qdz-hk-1.vfing.de
+DOMAIN-SUFFIX,vfing.de
 DOMAIN-SUFFIX,cdn.qzuie.top
-DOMAIN-SUFFIX,yd.28.al
-DOMAIN-SUFFIX,qdz-de-rs.vfing.de
-DOMAIN-SUFFIX,nb.28.al
+DOMAIN-SUFFIX,28.al
+DOMAIN-SUFFIX,qdz1.top
 
 # > 月饼:443
 DOMAIN-SUFFIX,emby.my
 
 # > pilipili:443
-DOMAIN-SUFFIX,emby-direct.pilipiliultra.com
-DOMAIN-SUFFIX,emby.pilipiliultra.com
+DOMAIN-SUFFIX,pilipiliultra.com
 
 # > Nebula-Media（星云）:443
 DOMAIN-SUFFIX,emby.nebula-media.org
@@ -105,14 +75,8 @@ DOMAIN-SUFFIX,emby.nebula-media.org
 DOMAIN-SUFFIX,us.nanflix.net
 
 # > 牢大餐厅：8443
-DOMAIN-SUFFIX,xmz2f-nkdd5-x4q9x.biliblili.uk
-DOMAIN-SUFFIX,w9pns-3hd2e-7jdt3.biliblili.uk
-DOMAIN-SUFFIX,emby-mica-us-v1.mius.uk
-DOMAIN-SUFFIX,emby-micax-ca-v2.mius.uk
-# > :443
-DOMAIN-SUFFIX,emby-mica-hk-v4.mius.uk
-DOMAIN-SUFFIX,emby-mica-yxvm-hk-v4.mius.uk
-DOMAIN-SUFFIX,emby-mica-hk3-v4.mius.uk
+DOMAIN-SUFFIX,biliblili.uk
+DOMAIN-SUFFIX,mius.uk
 
 # > SaturDay.Lite:8098
 DOMAIN-SUFFIX,lite.saturday.video
@@ -122,14 +86,11 @@ DOMAIN-SUFFIX,lite.saturdayvideo.top
 DOMAIN-SUFFIX,emby1.liustar.click
 
 # > 墨云阁：10086/443
-DOMAIN-SUFFIX,2pfdml.mobaiemby.site
-DOMAIN-SUFFIX,myg.mobaiemby.site
+DOMAIN-SUFFIX,mobaiemby.site
 
 # > 叶子：80/443
-DOMAIN-SUFFIX,super.yezi.my
-DOMAIN-SUFFIX,yyds.yezi.my
+DOMAIN-SUFFIX,yezi.my
 DOMAIN-SUFFIX,yezi.697758.best
-DOMAIN-SUFFIX,yz.yezi.my
 
 # > Dusky：2345
 DOMAIN-SUFFIX,eidix.store
