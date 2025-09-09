@@ -173,7 +173,7 @@ proxy-groups:
   - {name: 🇺🇸 美国 · 星云β, <<: *UrlTest, filter: *FilterUS}
     custom_proxy_group=🌐 全球 · 曙光α`select`DE|NL
   - {name: 🌐 全球 · 星云β, <<: *UrlTest, filter: *FilterAA}
-    custom_proxy_group=💿 Emby · 曙光α`select`?!.*?EIP|100x).*(?=.*US|HK)(?=.*x
+    custom_proxy_group=💿 Emby · 曙光α`select`^(?!.*(EIP|100x)).*(?=.*(US|HK))(?=.*x)
   - {name: 💿 Emby · 星云β, <<: *UrlTest, filter: *FilterEmby}
 
 
