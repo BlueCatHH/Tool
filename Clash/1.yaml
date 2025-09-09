@@ -157,7 +157,6 @@ proxy-groups:
   - {name: 🌐 全球 · ✈️ 主通道, type: select, proxies: [🌐 全球 · 曙光α, 🌐 全球 · 星云β]}
   - {name: 💿 Emby · 🍿 主通道, type: select, proxies: [💿 Emby · 曙光α, 💿 Emby · 星云β]}
 
-
 # 时延优选策略组
     custom_proxy_group=🇭🇰 香港 · 曙光α`select`香港|HK|Hong Kong
   - {name: 🇭🇰 香港 · 星云β, <<: *UrlTest, filter: *FilterHK}
