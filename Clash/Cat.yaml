@@ -270,6 +270,11 @@ rule-providers:
 
   Emby:
     <<: *RuleProviders
+    path: './rules/Emby.list'
+    url: 'https://raw.githubusercontent.com/BlueCatHH/Tool/main/Clash/E.P.list'  
+
+  Emby:
+    <<: *RuleProviders
     path: './rules/Emby.yaml'
     url: 'https://kelee.one/Tool/Clash/Rule/EmbyServer.yaml'
 
