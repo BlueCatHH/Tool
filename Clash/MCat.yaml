@@ -142,14 +142,14 @@ proxy-groups:
   - {name: 兜底策略, type: fallback, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
 
 # 自动策略组（使用合并锚点 *FallBack，故障转移行为由锚点提供）
-  - {name: 香港 · 🏮, <<: *FallBack, proxies: [⏱香港手动, ⏱香港时延]}
-  - {name: 台湾 · 🍍, <<: *FallBack, proxies: [⏱台湾手动, ⏱台湾时延]}
-  - {name: 日本 · 🌸, <<: *FallBack, proxies: [⏱日本手动, ⏱日本时延]}
-  - {name: 韩国 · 🪁, <<: *FallBack, proxies: [⏱韩国手动, ⏱韩国时延]}
-  - {name: 狮城 · 🦁, <<: *FallBack, proxies: [⏱新国手动, ⏱新国时延]}
-  - {name: 美国 · 🦅, <<: *FallBack, proxies: [⏱美国手动, ⏱美国时延]}
-  - {name: 德国 · 🥖, <<: *FallBack, proxies: [⏱德国手动, ⏱德国时延]}
-  - {name: 安比 · 🍿, <<: *FallBack, proxies: [⏱安比手动, ⏱安比时延]}
+  - {name: 香港 · 🏮, <<: *FallBack, proxies: [⏱香港手动, ⏱香港时延, 🚥香港故障, 🎛香港负载]}
+  - {name: 台湾 · 🍍, <<: *FallBack, proxies: [⏱台湾手动, ⏱台湾时延, 🚥台湾故障, 🎛台湾负载]}
+  - {name: 日本 · 🌸, <<: *FallBack, proxies: [⏱日本手动, ⏱日本时延, 🚥日本故障, 🎛日本负载]}
+  - {name: 韩国 · 🪁, <<: *FallBack, proxies: [⏱韩国手动, ⏱韩国时延, 🚥韩国故障, 🎛韩国负载]}
+  - {name: 狮城 · 🦁, <<: *FallBack, proxies: [⏱新国手动, ⏱新国时延, 🚥新国故障, 🎛新国负载]}
+  - {name: 美国 · 🦅, <<: *FallBack, proxies: [⏱美国手动, ⏱美国时延, 🚥美国故障, 🎛美国负载]}
+  - {name: 德国 · 🥖, <<: *FallBack, proxies: [⏱德国手动, ⏱德国时延, 🚥德国故障, 🎛德国负载]}
+  - {name: 安比 · 🍿, <<: *FallBack, proxies: [⏱安比手动, ⏱安比时延, 🚥安比故障, 🎛安比负载]}
 
 # 手动选择策略组
   - {name: ⏱香港手动, type: select, include-all-providers: true, filter: *FilterHK}
@@ -170,6 +170,26 @@ proxy-groups:
   - {name: ⏱美国时延, <<: *UrlTest, filter: *FilterUS}
   - {name: ⏱德国时延, <<: *UrlTest, filter: *FilterDE}
   - {name: ⏱安比时延, <<: *UrlTest, filter: *FilterEP}
+
+# 故障转移策略组
+  - {name: 🚥香港故障, <<: *FallBack, filter: *FilterHK}
+  - {name: 🚥台湾故障, <<: *FallBack, filter: *FilterTW}
+  - {name: 🚥日本故障, <<: *FallBack, filter: *FilterJP}
+  - {name: 🚥韩国故障, <<: *FallBack, filter: *FilterKR}
+  - {name: 🚥新国故障, <<: *FallBack, filter: *FilterSG}
+  - {name: 🚥美国故障, <<: *FallBack, filter: *FilterUS}
+  - {name: 🚥德国故障, <<: *FallBack, filter: *FilterDE}
+  - {name: 🚥安比故障, <<: *FallBack, filter: *FilterEP}
+
+# 负载均衡策略组
+  - {name: 🎛香港负载, <<: *LoadBalance, filter: *FilterHK}
+  - {name: 🎛台湾负载, <<: *LoadBalance, filter: *FilterTW}
+  - {name: 🎛日本负载, <<: *LoadBalance, filter: *FilterJP}
+  - {name: 🎛韩国负载, <<: *LoadBalance, filter: *FilterKR}
+  - {name: 🎛新国负载, <<: *LoadBalance, filter: *FilterSG}
+  - {name: 🎛美国负载, <<: *LoadBalance, filter: *FilterUS}
+  - {name: 🎛德国负载, <<: *LoadBalance, filter: *FilterDE}
+  - {name: 🎛安比负载, <<: *LoadBalance, filter: *FilterEP}
 
 # 订阅规则
 rule-providers:
@@ -240,8 +260,8 @@ rule-providers:
 
   Emby:
     <<: *RuleProviders
-    path: './rules/EP.yaml'
-    url: 'https://raw.githubusercontent.com/BlueCatHH/Tool/main/Clash/EP.yaml'  
+    path: './rules/E.P.list'
+    url: 'https://raw.githubusercontent.com/BlueCatHH/Tool/main/Clash/E.P.list'  
 
   Emby1:
     <<: *RuleProviders
