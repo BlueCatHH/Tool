@@ -97,13 +97,7 @@ proxy-providers:
     <<: *NodeParam
     path: './proxy_providers/机场名称1.yaml'
     override:
-      additional-prefix: "[机场名称1] " # 为订阅节点添加机场名称前缀
-  机场名称2:
-    url: '机场2的订阅URL'
-    <<: *NodeParam
-    path: './proxy_providers/机场名称2.yaml'
-    override:
-      additional-prefix: "[机场名称2] " # 为订阅节点添加机场名称前缀
+      additional-prefix: " " # 为订阅节点添加机场名称前缀
 
 # 锚点 - 节点筛选组
 FilterHK: &FilterHK '^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
