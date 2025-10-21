@@ -126,50 +126,51 @@ RuleProviders: &RuleProviders {type: http, behavior: classical, interval: 3600, 
 
 # 策略组
 proxy-groups: 
-  - {name: 全球选择, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: 境外下载, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: AI, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: TikTok, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: Shopify, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: SpeedtestIntl, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: App Store, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: Apple账户, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: TestFlight, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: 1Password, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: Netflix, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: Emby, type: select, proxies: [DIRECT, 安比 · 🍿, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: 游戏选择, type: select, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
-  - {name: 兜底策略, type: fallback, proxies: [DIRECT, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🌍 全球选择, type: fallback, proxies: [香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖, DIRECT]}
+  - {name: 📦 境外下载, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🤖 AI服务, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🎵 TikTok, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🎧 Spotify, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🚀 Speedtest, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🍎 App Store, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🔐 Apple账户, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🧪 TestFlight, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🔑 1Password, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🎬 Netflix, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🍿 Emby影音, type: select, proxies: [🌍 全球选择, 安比 · 🍿, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🎮 游戏选择, type: select, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
+  - {name: 🧩 兜底策略, type: fallback, proxies: [🌍 全球选择, 香港 · 🏮, 台湾 · 🍍, 日本 · 🌸, 韩国 · 🪁, 狮城 · 🦁, 美国 · 🦅, 德国 · 🥖]}
 
-# 自动策略组（使用合并锚点 *FallBack，故障转移行为由锚点提供）
-  - {name: 香港 · 🏮, <<: *FallBack, proxies: [⏱香港手动, ⏱香港时延]}
-  - {name: 台湾 · 🍍, <<: *FallBack, proxies: [⏱台湾手动, ⏱台湾时延]}
-  - {name: 日本 · 🌸, <<: *FallBack, proxies: [⏱日本手动, ⏱日本时延]}
-  - {name: 韩国 · 🪁, <<: *FallBack, proxies: [⏱韩国手动, ⏱韩国时延]}
-  - {name: 狮城 · 🦁, <<: *FallBack, proxies: [⏱新国手动, ⏱新国时延]}
-  - {name: 美国 · 🦅, <<: *FallBack, proxies: [⏱美国手动, ⏱美国时延]}
-  - {name: 德国 · 🥖, <<: *FallBack, proxies: [⏱德国手动, ⏱德国时延]}
-  - {name: 安比 · 🍿, <<: *FallBack, proxies: [⏱安比手动, ⏱安比时延]}
+# === 🌏 自动策略组（使用合并锚点 *FallBack）===
+  - {name: 香港 · 🏮, <<: *FallBack, proxies: [🎚️ 香港 · 手动, ⚡ 香港 · 智选]}
+  - {name: 台湾 · 🍍, <<: *FallBack, proxies: [🎚️ 台湾 · 手动, ⚡ 台湾 · 智选]}
+  - {name: 日本 · 🌸, <<: *FallBack, proxies: [🎚️ 日本 · 手动, ⚡ 日本 · 智选]}
+  - {name: 韩国 · 🪁, <<: *FallBack, proxies: [🎚️ 韩国 · 手动, ⚡ 韩国 · 智选]}
+  - {name: 狮城 · 🦁, <<: *FallBack, proxies: [🎚️ 狮城 · 手动, ⚡ 狮城 · 智选]}
+  - {name: 美国 · 🦅, <<: *FallBack, proxies: [🎚️ 美国 · 手动, ⚡ 美国 · 智选]}
+  - {name: 德国 · 🥖, <<: *FallBack, proxies: [🎚️ 德国 · 手动, ⚡ 德国 · 智选]}
+  - {name: 安比 · 🍿, <<: *FallBack, proxies: [🎚️ 安比 · 手动, ⚡ 安比 · 智选]}
 
-# 手动选择策略组
-  - {name: ⏱香港手动, type: select, include-all-providers: true, filter: *FilterHK}
-  - {name: ⏱台湾手动, type: select, include-all-providers: true, filter: *FilterTW}
-  - {name: ⏱日本手动, type: select, include-all-providers: true, filter: *FilterJP}
-  - {name: ⏱韩国手动, type: select, include-all-providers: true, filter: *FilterKR}
-  - {name: ⏱新国手动, type: select, include-all-providers: true, filter: *FilterSG}
-  - {name: ⏱美国手动, type: select, include-all-providers: true, filter: *FilterUS}
-  - {name: ⏱德国手动, type: select, include-all-providers: true, filter: *FilterDE}
-  - {name: ⏱安比手动, type: select, include-all-providers: true, filter: *FilterEP}
+# === 🧭 手动选择策略组 ===
+  - {name: 🎚️ 香港 · 手动, type: select, include-all-providers: true, filter: *FilterHK}
+  - {name: 🎚️ 台湾 · 手动, type: select, include-all-providers: true, filter: *FilterTW}
+  - {name: 🎚️ 日本 · 手动, type: select, include-all-providers: true, filter: *FilterJP}
+  - {name: 🎚️ 韩国 · 手动, type: select, include-all-providers: true, filter: *FilterKR}
+  - {name: 🎚️ 狮城 · 手动, type: select, include-all-providers: true, filter: *FilterSG}
+  - {name: 🎚️ 美国 · 手动, type: select, include-all-providers: true, filter: *FilterUS}
+  - {name: 🎚️ 德国 · 手动, type: select, include-all-providers: true, filter: *FilterDE}
+  - {name: 🎚️ 安比 · 手动, type: select, include-all-providers: true, filter: *FilterEP}
 
-# 时延优选策略组
-  - {name: ⏱香港时延, <<: *UrlTest, filter: *FilterHK}
-  - {name: ⏱台湾时延, <<: *UrlTest, filter: *FilterTW}
-  - {name: ⏱日本时延, <<: *UrlTest, filter: *FilterJP}
-  - {name: ⏱韩国时延, <<: *UrlTest, filter: *FilterKR}
-  - {name: ⏱新国时延, <<: *UrlTest, filter: *FilterSG}
-  - {name: ⏱美国时延, <<: *UrlTest, filter: *FilterUS}
-  - {name: ⏱德国时延, <<: *UrlTest, filter: *FilterDE}
-  - {name: ⏱安比时延, <<: *UrlTest, filter: *FilterEP}
+# === ⚡ 时延优选策略组 ===
+  - {name: ⚡ 香港 · 智选, <<: *UrlTest, filter: *FilterHK}
+  - {name: ⚡ 台湾 · 智选, <<: *UrlTest, filter: *FilterTW}
+  - {name: ⚡ 日本 · 智选, <<: *UrlTest, filter: *FilterJP}
+  - {name: ⚡ 韩国 · 智选, <<: *UrlTest, filter: *FilterKR}
+  - {name: ⚡ 狮城 · 智选, <<: *UrlTest, filter: *FilterSG}
+  - {name: ⚡ 美国 · 智选, <<: *UrlTest, filter: *FilterUS}
+  - {name: ⚡ 德国 · 智选, <<: *UrlTest, filter: *FilterDE}
+  - {name: ⚡ 安比 · 智选, <<: *UrlTest, filter: *FilterEP}
+
 
 # 订阅规则
 rule-providers:
@@ -208,10 +209,10 @@ rule-providers:
     path: './rules/TikTok.yaml'
     url: 'https://kelee.one/Tool/Clash/Rule/TikTok.yaml'
 
-  Shopify:
+  Spotify:
     <<: *RuleProviders
-    path: './rules/Shopify.yaml'
-    url: 'https://rule.kelee.one/Clash/Shopify.yaml'
+    path: './rules/Spotify.yaml'
+    url: 'https://rule.kelee.one/Clash/Rule/Spotify.yaml'
 
   SpeedtestIntl:
     <<: *RuleProviders
@@ -302,28 +303,28 @@ rule-providers:
 rules:
   - RULE-SET, LAN, DIRECT
   - RULE-SET, Direct, DIRECT
-  - RULE-SET, Proxy, 兜底策略
+  - RULE-SET, Proxy, 🧩 兜底策略
   - RULE-SET, ChinaDownloadCDN, DIRECT
-  - RULE-SET, InternationalDownloadCDN, 境外下载
-  - RULE-SET, AI, AI
-  - RULE-SET, TikTok, TikTok
-  - RULE-SET, Shopify, Shopify
-  - RULE-SET, SpeedtestIntl, SpeedtestIntl
-  - RULE-SET, Steam, 兜底策略
-  - RULE-SET, Game, 游戏选择
-  - RULE-SET, Netflix, Netflix
-  - RULE-SET, Emby, Emby
-  - RULE-SET, Emby1, Emby
-  - RULE-SET, TestFlight, TestFlight
+  - RULE-SET, InternationalDownloadCDN, 📦 境外下载
+  - RULE-SET, AI, 🤖 AI服务
+  - RULE-SET, TikTok, 🎵 TikTok
+  - RULE-SET, Spotify, 🎧 Spotify
+  - RULE-SET, SpeedtestIntl, 🚀 Speedtest
+  - RULE-SET, Steam, 🧩 兜底策略
+  - RULE-SET, Game, 🎮 游戏选择
+  - RULE-SET, Netflix, 🎬 Netflix
+  - RULE-SET, Emby, 🍿 Emby影音
+  - RULE-SET, Emby1, 🍿 Emby影音
+  - RULE-SET, TestFlight, 🧪 TestFlight
   - RULE-SET, iCloudChina, DIRECT
   - RULE-SET, ApplePushNotificationService, DIRECT
   - RULE-SET, AppleSoftwareUpdates, DIRECT
-  - RULE-SET, AppleID, Apple账户
-  - RULE-SET, AppStore, App Store
-  - RULE-SET, 1Password, 1Password
-  - RULE-SET, Microsoft, 兜底策略
-  - RULE-SET, Google, 兜底策略
-  - RULE-SET, Telegram, 兜底策略
+  - RULE-SET, AppleID, 🔐 Apple账户
+  - RULE-SET, AppStore, 🍎 App Store
+  - RULE-SET, 1Password, 🔑 1Password
+  - RULE-SET, Microsoft, 🧩 兜底策略
+  - RULE-SET, Google, 🧩 兜底策略
+  - RULE-SET, Telegram, 🧩 兜底策略
   - RULE-SET, ESET_China, DIRECT
   - GEOIP, CN, DIRECT
-  - MATCH, 兜底策略
+  - MATCH, 🧩 兜底策略
